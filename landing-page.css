@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://images8.alphacoders.com/474/thumb-1920-474444.jpg);
+    background-position-x: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+.btn {
+    background: rgb(255, 0, 0);
+    color: black;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(255, 165, 0, 0.7);
+}
+.btn:hover {
+    background: #fbb000;
+}
+.menu-haut{
+    display:flex;
+    justify-content: space-between;
+    background-image: url(https://images.photowall.com/products/71364/milky-way-galaxy.jpg?h=699&q=85);
+    margin: 20px;
+}
+.minimenu{
+    margin: 90px;
+    display: flex;
+    font-family: Fjalla One;
+    color: white;
+    align-items: center;
+}
+.minimenu a:hover{
+    text-decoration: double;
+    color: orange;
+}
+img{
+    width: 200px;
+    height: 175px;
+}
+button{
+    margin: 90px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.blockfooter{
+    display: flex;
+    justify-content: space-around;
+    font-family: Fjalla One;
+    border: 3px solid black;
+    
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-left: 520px ;
+}
+p{
+    text-shadow: 1px 1px 2px black;
+}
